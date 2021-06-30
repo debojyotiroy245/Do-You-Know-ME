@@ -37,7 +37,7 @@ var questions = [{
     answer: 'projects'
   },
   {
-    question:'Do I love to cook?y/n'
+    question:'Do I love to cook?y/n',
     answer:'y'
   }
 ]
