@@ -45,6 +45,7 @@ function welcome() {
   console.log('Welcome ' + chalk.hex('#00ccff')(userName) + chalk.hex('#cc6699')(' to DO YOU KNOW Debojyoti'))
   console.log()
 }
+
 //this function starts the quiz game
 function startGame() {
   console.log(gameDesc("This game is all about how much you know Debojyoti."))
@@ -59,6 +60,7 @@ function startGame() {
     return;
   }
 }
+
 //check if the user gets the correct answer and score the user
 function play(question, answer) {
   var userAnswer = readlineSync.question(quesColor(question))
@@ -80,6 +82,7 @@ function game() {
     play(currentQuestion.question, currentQuestion.answer)
   }
 }
+
 // this function show the score of the user
 function showScores() {
   console.log(chalk.hex('#bbff33')('YAY,You scored: '), score)
@@ -90,5 +93,3 @@ function showScores() {
 
 welcome();
 startGame();
-// game();
-// showScores();
