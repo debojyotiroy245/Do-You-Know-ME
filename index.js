@@ -12,7 +12,7 @@ const gameDesc = chalk.hex('#00e699')
 //name of people who have high scores
 var highScores = [{
   name: 'Debojyoti',
-  score: 5
+  score: 6
 }]
 
 //Contains all the questions and answers
@@ -35,6 +35,10 @@ var questions = [{
   {
     question: 'What I like to do most in my leisure ? ',
     answer: 'projects'
+  },
+  {
+    question:'Do I love to cook?y/n'
+    answer:'y'
   }
 ]
 
